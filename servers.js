@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-const mongoURI = 'mongodb+srv://ovindupathirana554:mongo12345@cluster0.jofi0.mongodb.net/dating?retryWrites=true&w=majority&appName=Cluster0&tls=true&tlsInsecure=true';
+const mongoURI = 'your_mongo_uri';
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
